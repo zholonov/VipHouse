@@ -1,0 +1,42 @@
+.header {
+  padding: 30px 0;
+  position: absolute;
+  width: 100%;
+    &__all{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  &-logo{
+    &__title{
+      font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+    }
+    &__subtitle{
+      font-family: Raleway, sans-serif;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+  }
+  .nav {
+
+
+    &__link {
+      align-items: center;
+      display: inline-block;
+      margin-right: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 45px;
+      text-decoration: none;
+      font-family: Raleway, sans-serif;
+
+      color: #FFFFFF;
+      position: relative;
+    }
+  }
+
+}

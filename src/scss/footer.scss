@@ -1,0 +1,89 @@
+.footer{
+  background: #2D343C;
+  .first{
+    max-width: 1110px;
+  }
+    .title{
+      margin-top: 60px;
+      font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+    }
+    .subtitle{
+      font-family: Raleway, sans-serif;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+
+  .second{
+    margin-top: 72px;
+    .nav__link{
+
+      margin-top: 15px;
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #FFFFFF;
+      list-style-type: none;
+    }
+  }
+  .third{
+    margin-top: 72px;
+
+    .nav__link{
+
+      margin-top: 15px;
+
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #FFFFFF;
+      list-style-type: none;
+    }
+  }
+  .fourth{
+    margin-top: 72px;
+
+    .nav__link{
+
+      margin-top: 15px;
+
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #FFFFFF;
+      list-style-type: none;
+      .mail{
+        color: #D4C17F;
+        text-decoration: none;
+      }
+    }
+    .icons{
+      margin-left: 30px;
+      &__img{
+        &:nth-child(2){
+          margin-right: 25px;
+          margin-left: 20px;
+        }
+        &:nth-child(3){
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+
+}
+

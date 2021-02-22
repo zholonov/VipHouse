@@ -1,0 +1,99 @@
+.cta {
+  background: url("../img/cta/bg.png");
+  height: 560px;
+
+  &__title {
+
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+    padding-top: 180px;
+  }
+
+  &__subtitle {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .fff {
+    display: flex;
+  }
+
+  &__form {
+    max-width: 540px;
+    margin-top: -25px;
+
+    .page {
+      width: 255px;
+      height: 28px;
+    }
+
+    .btn-2 {
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+
+      display: block;
+      width: 255px;
+      height: 50px;
+      background: #D4C17F;
+      margin-left: 30px;
+      text-decoration: none;
+    }
+
+    .page {
+
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #E7E7E7;
+
+    }
+
+    .btn {
+
+      width: 255px;
+      height: 50px;
+      background: rgba(255, 255, 255, 0.2);
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 40px;
+      color: #FFFFFF;
+    }
+    .btn::placeholder{
+      color: #FFFFFF;
+    }
+
+
+  }
+  &-end {
+    display: flex;
+    margin-left: 35px;
+  }
+  &__box{
+    margin-bottom: 35px;
+    display: flex;
+    margin-left: 35px;
+
+  }
+  .btn:first-child{
+    margin-right: 20px;
+  }
+}

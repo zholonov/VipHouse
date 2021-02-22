@@ -1,0 +1,23 @@
+@import "../libs/fonts/Raleway/stylesheet.css";
+@import "../libs/fonts/playfair/stylesheet.css";
+@import "../libs/fonts/roboto/stylesheet.css";
+
+html{
+  overflow-x: hidden;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@import "home";
+@import "header";
+@import "test";
+@import "cta";
+@import "last";
+@import "footer";
+@import "upbtn";
+@import "media";

@@ -1,0 +1,45 @@
+.home{
+  background: url("../img/home/bg 3.jpg")center/cover;
+  padding: 295px 0 74px;
+
+  &__title{
+    font-family: Playfair Display, sans-serif;
+    width: 556px;
+    height: 109px;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #D4C17F;
+    margin: 0 auto;
+  }
+  &__group{
+
+    display: flex;
+    justify-content: space-between;
+    width: 582px;
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+  &__fontain{
+
+    width: 218px;
+    height: 21px;
+    color: #FFFFFF;
+
+
+    font-family: Raleway, sans-serif;
+  }
+  &__call{
+    width: 218px;
+    height: 21px;
+    color: #FFFFFF;
+
+    font-family: Raleway, sans-serif;
+  }
+  .mouse{
+    text-align: center;
+    padding-bottom: 186px;
+    padding-top: 150px;
+}
+}

@@ -1,0 +1,121 @@
+.last{
+  background-color: #242b33;
+  position: relative;
+  .figure-3{
+    position: absolute;
+    font-family: Playfair Display,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    transform: translate(238%, 10%);
+
+  }
+  .figure-4{
+    position: absolute;
+    font-family: Playfair Display,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    transform: translate(-50%, 145%);
+
+  }
+  &__video{
+    text-align: center;
+    &__img{
+      margin-bottom: 180px;
+    }
+    &__img-2{
+      position: absolute;
+      margin: 266px -400px;
+      z-index: 1;
+
+    }
+  }
+  &__maps{
+    &__title{
+
+      font-family: Playfair Display,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px;
+      color: #D4C17F;
+      margin-bottom: 100px;
+    }
+    .maps{
+      margin-bottom: 180px;
+    }
+  }
+  &__form{
+    .subtitle{
+      margin-top: 180px;
+      font-family: Playfair Display, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px;
+      color: #D4C17F;
+      margin-bottom: 61px;
+    }
+    .last-box{
+      display: flex;
+      .last-text{
+        margin-right: 35px;
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #E7E7E7;
+      }
+      .cta-box{
+        display: flex;
+        .btn{
+          width: 255px;
+          height: 50px;
+          background: rgba(255, 255, 255, 0.2);
+          font-family: Raleway, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 40px;
+          color: white;
+          margin-bottom: 180px;
+        }
+        .btn::placeholder{
+          color: white;
+        }
+        .button{
+          font-family: Raleway, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 50px;
+          text-align: center;
+          color: #FFFFFF;
+
+          display: block;
+          width: 255px;
+          height: 50px;
+          background: #D4C17F;
+          text-decoration: none;
+
+        }
+        .btn{
+          margin-right: 30px;
+
+        }
+        }
+
+    }
+  }
+}
